@@ -3,7 +3,7 @@ import os
 import argparse
 
 
-class PyTestGen:
+class BoilerTest:
 
     """
     A TestFileGenerator class is a utility for automatically creating a testing script for a given Python file.

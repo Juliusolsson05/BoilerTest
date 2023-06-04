@@ -1,17 +1,17 @@
 from setuptools import setup
 
 setup(
-    name="PyTestGen",
-    version="1.0.0",
+    name="BoilerTest",
+    version="1.0.3",
     description="Python test file generator",
     long_description="A utility for automatically creating test files for Python classes",
     author="Julius Olsson",
     author_email="julius.olsson05@gmail.com",
-    url="https://github.com/Juliusolsson05/PyTestGen.git",
-    packages=["PyTestGen"],
+    url="https://github.com/Juliusolsson05/BoilerTest.git",
+    packages=["BoilerTest"],
     entry_points={
         "console_scripts": [
-            "pytestgen=PyTestGen.main:main",
+            "boilertest=BoilerTest.main:main",
         ],
     },
     classifiers=[

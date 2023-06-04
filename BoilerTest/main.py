@@ -1,6 +1,5 @@
-from PyTestGen import PyTestGen
+from BoilerTest import BoilerTest
 import argparse
-
 
 def main():
     parser = argparse.ArgumentParser(description="Generate test files for Python classes.")
@@ -10,5 +9,5 @@ def main():
 
     args = parser.parse_args()
 
-    generator = PyTestGen(args.file, args.testfolder, args.is_directory)
+    generator = BoilerTest(args.file, args.testfolder, args.is_directory)
     generator.generate_test_file()
