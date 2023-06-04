@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name="BoilerTest",
-    version="1.0.3",
+    version="1.0.4",
     description="Python test file generator",
     long_description="A utility for automatically creating test files for Python classes",
     author="Julius Olsson",
