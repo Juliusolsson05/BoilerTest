@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: BoilerTest
+Version: 1.0.4
+Summary: Python test file generator
+Home-page: https://github.com/Juliusolsson05/BoilerTest.git
+Author: Julius Olsson
+Author-email: julius.olsson05@gmail.com
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.8
+
+A utility for automatically creating test files for Python classes

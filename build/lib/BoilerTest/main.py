@@ -129,7 +129,7 @@ if __name__ == '__main__':
 
     class TestFunctions(unittest.TestCase):
 
-        {self.functions}
+    {self.functions}
 
     if __name__ == '__main__':
         unittest.main()
